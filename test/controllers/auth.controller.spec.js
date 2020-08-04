@@ -6,6 +6,10 @@ let authController = require('../../controllers/auth.controller');
 console.log(authController);
 
 describe('AuthController', function(){
+    beforeEach(function () {
+      authController.setRoles(["user"]);
+    });
+
     context('isAuthorized', function(){
         it('should return false if not authorized', function(){
             authController.setRoles(['user']);
