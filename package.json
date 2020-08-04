@@ -11,7 +11,7 @@
     "mocha": "^8.1.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha './test/**/*.spec.js'"
   },
   "repository": {
     "type": "git",
