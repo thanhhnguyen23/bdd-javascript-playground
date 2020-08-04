@@ -1,0 +1,33 @@
+{
+  "name": "bdd-js-playground",
+  "version": "1.0.0",
+  "description": "testing javascript for nodejs with mocha",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^8.1.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thanhhnguyen23/bdd-javascript-playground.git"
+  },
+  "keywords": [
+    "bdd",
+    "javascript",
+    "js",
+    "mocha",
+    "nodejs"
+  ],
+  "author": "Thanh Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thanhhnguyen23/bdd-javascript-playground/issues"
+  },
+  "homepage": "https://github.com/thanhhnguyen23/bdd-javascript-playground#readme"
+}
